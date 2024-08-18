@@ -1,0 +1,60 @@
+.paragraph {
+  color: #170a04;
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 19.36px;
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+  text-wrap: wrap;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: #170a04;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+
+.formcontrol {
+  width: 100%;
+  margin: 24px 10px;
+  height: 41px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: black;
+  border-color: white;
+  border-width: 1.3px;
+}
+
+.botao {
+  height: 43px;
+  width: 121px;
+  background-color: #5aba59;
+  border-radius: 10px;
+  color: white;
+  border-color: #5a8a59;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 40px;
+}
+
+.cc {
+  font-size: 64px;
+  color: #170a04;
+  font-weight: 200;
+}

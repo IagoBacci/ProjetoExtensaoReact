@@ -1,0 +1,16 @@
+body{
+    transition: width 0.5s
+}
+.homeTitle{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+    color: #170A04;
+}
